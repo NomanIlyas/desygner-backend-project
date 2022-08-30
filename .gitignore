@@ -1,14 +1,3 @@
-workhub-admin
-desygner-api
-workhub-api-connect
-workhub-api-scheduling
-workhub-connect
-workhub-scheduling
-workhub-socketcluster
-workhub-domain-storage
-workhub-connect-recording-processor
-workhub-release-notifier
-workhub-hub
 /.idea/
 docker-compose.yml
 

@@ -1,0 +1,9 @@
+CONTAINER=${1:-api_connect}
+
+if [ -z "${2:-}" ]; then
+    COMMAND="sh"
+else
+    COMMAND="sh -c \"$2\""
+fi
+
+docker-compose exec -u nginx $CONTAINER $COMMAND
